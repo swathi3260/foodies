@@ -11,7 +11,7 @@ export class GetrestaurantsService {
   constructor(private httpClient: HttpClient) { }
 
   
-  getrestaurants() {
+  getrestaurants(location:string,cuisine:string) {
     const httpOptions = {
       headers: new HttpHeaders({
         'Content-Type':  'application/json',
@@ -22,7 +22,7 @@ export class GetrestaurantsService {
     // this.httpClient.get('{this.LIVE_URI}/locations').subscribe
     // (data => console.log(data));
     // return this.httpClient.get('${this.LIVE_URI}/locations');
-    return this.httpClient.get('https://developers.zomato.com/api/v2.1/search', httpOptions);
+    return this.httpClient.get('https://developers.zomato.com/api/v2.1/search?q=location&cuisines=cuisine', httpOptions);
 
      //return $.ajax({
       // type:'GET',
