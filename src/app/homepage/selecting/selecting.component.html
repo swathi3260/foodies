@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
 
       <form class="form">
           <div class="form-group">
@@ -17,5 +27,17 @@
               </div>
             
         </form>
+     <!-- <div class="card" *ngIf="res"> -->
+       <div class="row" *ngFor="let res1 of res">
+         <div class="card">
+           <div class="card-body">
+             <h5 class="card-title">{{res1}}</h5>
+             <a href="#" class="btn btn-primary">Go somewhere</a>
+           </div>
+         </div>
+       </div>
+     <!-- </div> -->
+        
 
-    
+    </body>
+    </html>

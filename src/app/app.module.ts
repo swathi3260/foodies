@@ -9,6 +9,7 @@ import { SelectingComponent } from './homepage/selecting/selecting.component';
 
 import { GetrestaurantsService } from './getrestaurants.service'
 import { HttpClientModule }    from '@angular/common/http';
+
 // import {  }
 
 @NgModule({
@@ -17,8 +18,6 @@ import { HttpClientModule }    from '@angular/common/http';
     HomepageComponent,
     HeadComponent,
     SelectingComponent,
-    
-   
   ],
   imports: [
     BrowserModule,
