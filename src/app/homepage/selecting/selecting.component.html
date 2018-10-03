@@ -31,7 +31,8 @@
        <div class="row" *ngFor="let res1 of res">
          <div class="card">
            <div class="card-body">
-             <h5 class="card-title">{{res1}}</h5>
+             <img src="{{res1.featured_image}}">
+             <h5 class="card-title">{{res1.name}}</h5>
              <a href="#" class="btn btn-primary">Go somewhere</a>
            </div>
          </div>
