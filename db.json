@@ -1,0 +1,56 @@
+{
+  "favourites": [
+    {
+      "R": {
+        "res_id": 18133508
+      },
+      "apikey": "9afe5ae2561b8091f5118177b4848b35",
+      "id": "18133508",
+      "name": "Delhi Pavilion - Sheraton New Delhi Hotel",
+      "url": "https://www.zomato.com/ncr/delhi-pavilion-sheraton-new-delhi-hotel-saket-new-delhi?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+      "location": {
+        "address": "Sheraton New Delhi Hotel, District Centre, Saket, New Delhi",
+        "locality": "Sheraton New Delhi Hotel, Saket",
+        "city": "New Delhi",
+        "city_id": 1,
+        "latitude": "28.5269037346",
+        "longitude": "77.2156228870",
+        "zipcode": "",
+        "country_id": 1,
+        "locality_verbose": "Sheraton New Delhi Hotel, Saket, New Delhi"
+      },
+      "switch_to_order_menu": 0,
+      "cuisines": "North Indian, Continental, Asian",
+      "average_cost_for_two": 3000,
+      "price_range": 4,
+      "currency": "Rs.",
+      "offers": [],
+      "opentable_support": 0,
+      "is_zomato_book_res": 0,
+      "mezzo_provider": "OTHER",
+      "is_book_form_web_view": 0,
+      "book_form_web_view_url": "",
+      "book_again_url": "",
+      "thumb": "https://b.zmtcdn.com/data/res_imagery/18133508_RESTAURANT_bba515890dca1f16bc1584c75a0009b7.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+      "user_rating": {
+        "aggregate_rating": "4.0",
+        "rating_text": "Very Good",
+        "rating_color": "5BA829",
+        "votes": "299"
+      },
+      "photos_url": "https://www.zomato.com/ncr/delhi-pavilion-sheraton-new-delhi-hotel-saket-new-delhi/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+      "menu_url": "https://www.zomato.com/ncr/delhi-pavilion-sheraton-new-delhi-hotel-saket-new-delhi/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+      "featured_image": "https://b.zmtcdn.com/data/res_imagery/18133508_RESTAURANT_bba515890dca1f16bc1584c75a0009b7.jpg?output-format=webp",
+      "medio_provider": 1,
+      "has_online_delivery": 0,
+      "is_delivering_now": 0,
+      "include_bogo_offers": true,
+      "deeplink": "zomato://restaurant/18133508",
+      "is_table_reservation_supported": 1,
+      "has_table_booking": 1,
+      "book_url": "https://www.zomato.com/ncr/delhi-pavilion-sheraton-new-delhi-hotel-saket-new-delhi/book?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+      "events_url": "https://www.zomato.com/ncr/delhi-pavilion-sheraton-new-delhi-hotel-saket-new-delhi/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+      "establishment_types": []
+    }
+  ]
+}

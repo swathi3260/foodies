@@ -63,5 +63,33 @@ export class SelectingComponent implements OnInit {
    //console.log(this.response);
  // })
 
+ 
+
   }
+  sendData(res1:any){
+    const httpOptions={
+      headers: new HttpHeaders({
+      'Content-Type':  'application/json',
+      'user-key': '9afe5ae2561b8091f5118177b4848b35'
+    })
+  }
+
+  this.http.post("http://localhost:3000/posts",res1).subscribe(data=>{
+    console.log("POST is successful");
 }
+  );
+  
+   }
+   sendDatato(res1:any){
+    const httpOptions={
+      headers: new HttpHeaders({
+      'Content-Type':  'application/json',
+      'user-key': '9afe5ae2561b8091f5118177b4848b35'
+    })
+  }
+  this.http.post("http://localhost:3000/favourites",res1).subscribe(data=>{
+    console.log("POST is successful");
+}
+  );
+   }
+  }

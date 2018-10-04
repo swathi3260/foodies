@@ -33,7 +33,8 @@
            <div class="card-body">
              <img src="{{res1.featured_image}}">
              <h5 class="card-title">{{res1.name}}</h5>
-             <a href="#" class="btn btn-primary">Go somewhere</a>
+             <a  class="btn btn-primary" (click)="sendData(res1)">Add to existing collections</a>
+             <a  class="btn btn-primary" (click)="sendDatato(res1)">Add to new collections</a>
            </div>
          </div>
        </div>
