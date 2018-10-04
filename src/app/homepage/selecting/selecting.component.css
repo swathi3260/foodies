@@ -3,6 +3,16 @@
     margin: auto;
 }
 .button{
-    width: 80px;
+    width: 60px;
     margin: auto;
+}
+
+.resultsContainer {
+    display: flex;
+   flex-wrap: wrap;
+   
+}
+
+body{
+    width: 100%;
 }

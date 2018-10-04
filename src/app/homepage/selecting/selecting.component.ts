@@ -22,7 +22,7 @@ export class SelectingComponent implements OnInit {
   /*location:string=$('#formGroupExampleInput2').val();
   cuisine:string=$('#formGroupExampleInput3').val();*/
   
-  location: string;
+  restaurant: string;
   cuisine: string;
   LIVE_URI = 'https://developers.zomato.com/api/v2.1';
   res:any =[];
@@ -50,7 +50,7 @@ export class SelectingComponent implements OnInit {
   //     console.log(this.res)
   //     this.res.push(val)
   //   })
-  this.http.get(this.LIVE_URI+"/search?q="+this.location+"&cuisines="+this.cuisine, 
+  this.http.get(this.LIVE_URI+"/search?q="+this.restaurant+"&cuisines="+this.cuisine, 
     httpOptions).subscribe((val: any) => {
       this.res = val.restaurants.map(e => {
         return e.restaurant

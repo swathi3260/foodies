@@ -1,0 +1,14 @@
+<button (click)="showCollections()">Show existing Collections</button>
+<button (click)="showCollectionsfav()">Show favourite Collections</button>
+<br>
+<div>
+  <div class="row" *ngFor="let rest of restaurants">
+    <!-- <div>This is resturant: {{resturant}}</div> -->
+    <div class="card">
+      <div class="card-body">
+        <img src="{{rest.featured_image}}" style="width:100%;height:200%;">
+        <h5 class="card-title">{{rest.name}}</h5>
+      </div>
+    </div>
+  </div>
+</div>

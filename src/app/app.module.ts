@@ -9,6 +9,7 @@ import { SelectingComponent } from './homepage/selecting/selecting.component';
 
 import { GetrestaurantsService } from './getrestaurants.service'
 import { HttpClientModule }    from '@angular/common/http';
+import { DisplaycollectionsComponent } from './displaycollections/displaycollections.component';
 
 
 // import {  }
@@ -19,6 +20,7 @@ import { HttpClientModule }    from '@angular/common/http';
     HomepageComponent,
     HeadComponent,
     SelectingComponent,
+    DisplaycollectionsComponent,
     
   ],
   imports: [
