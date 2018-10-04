@@ -15,8 +15,8 @@ export class DisplaycollectionsComponent implements OnInit {
  // restaurantss=[];
 
   ngOnInit() {
-    this.showCollections();
-    this.showCollectionsfav();
+    // this.showCollections();
+    // this.showCollectionsfav();
   }
   showCollections(){
     console.log('called showCollections');

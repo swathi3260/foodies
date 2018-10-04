@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { GetrestaurantsService } from '../../getrestaurants.service';
+import { GetrestaurantsService } from '../getrestaurants.service';
 // import 'rxjs/add/operator/Flatmap';
 import { flatMap } from 'rxjs/operators';
 // import 'rxjs/add/operator/map';
