@@ -10,30 +10,10 @@ import { HttpHeaders } from '@angular/common/http';
 export class DisplaycollectionsComponent implements OnInit {
 
   constructor(private httpClient: HttpClient) { }
-  res:any=[];
-  restaurants=[];
- // restaurantss=[];
-
-  ngOnInit() {
-    
-  }
-  showCollections(){
-    console.log('called showCollections');
-    const httpOptions = {
-      headers: new HttpHeaders({
-        'Content-Type':  'application/json',
-        'user-key': '9afe5ae2561b8091f5118177b4848b35'
-      })
-    };
-    this.httpClient.get("http://localhost:3000/posts").subscribe((val: any) => {
-      this.restaurants = val;
-      console.log(this.restaurants);
-      });
-
-    
-}
-
-showCollectionsfav(){
+  res: any = [];
+  restaurants = [];
+  ngOnInit() {}
+showCollectionsfav() {
   console.log('called showfavouriteCollections');
   const httpOptions = {
     headers: new HttpHeaders({
@@ -41,12 +21,10 @@ showCollectionsfav(){
       'user-key': '9afe5ae2561b8091f5118177b4848b35'
     })
   };
-  
-    this.httpClient.get("http://localhost:3000/favourites").subscribe((res: any) => {
-    this.restaurants = res;
-    console.log(this.restaurants);
-    })
-
+  this.httpClient.get('http://localhost:3000/favourites').subscribe((res: any) => {
+  this.restaurants = res;
+  console.log(this.restaurants);
+    });
 }
 
 }

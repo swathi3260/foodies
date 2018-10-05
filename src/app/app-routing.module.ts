@@ -5,8 +5,8 @@ import {DisplaycollectionsComponent} from './displaycollections/displaycollectio
 
 const routes: Routes = [
   // {path:'',redirectTo:'\home',pathMatch:'full'},
-  {path:'', component: HomeComponent},
-  {path:'displaycollections',component: DisplaycollectionsComponent}
+  {path: '', component: HomeComponent},
+  {path: 'displaycollections', component: DisplaycollectionsComponent}
 ];
 
 @NgModule({

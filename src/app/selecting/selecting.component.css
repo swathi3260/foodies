@@ -10,9 +10,12 @@
 .resultsContainer {
     display: flex;
    flex-wrap: wrap;
-   
+   overflow: hidden;
 }
 
 body{
     width: 100%;
+   
+    margin-right: 0px;
+    
 }
