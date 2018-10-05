@@ -20,4 +20,5 @@ button{
 body{
     width: 100%;
     overflow: hidden;
+    background-image: url('src/assets/images/favr.jpg');
 }
