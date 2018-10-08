@@ -6,11 +6,11 @@ import { HttpHeaders } from '@angular/common/http';
   providedIn: 'root'
 })
 export class AddtofavouritesService {
-restaurants:any=[];
+restaurants: any = [];
   constructor(private http: HttpClient) { }
 
 
-GetFromAPI(LIVE_URI:string,restaurant:string,cuisine:string){
+GetFromAPI(LIVE_URI: string, restaurant:  string,  cuisine:  string) {
   const httpOptions = {
     headers: new HttpHeaders({
       'Content-Type':  'application/json',
@@ -21,7 +21,7 @@ return this.http.get(LIVE_URI + '/search?q=' + restaurant + '&cuisines=' + cuisi
   httpOptions);
 }
 
-PostDataToDB(res1:any){
+PostDataToDB(res1: any) {
   const httpOptions = {
     headers: new HttpHeaders({
     'Content-Type':  'application/json',
@@ -33,7 +33,7 @@ this.http.post('https://fast-ridge-55142.herokuapp.com/favourites', res1).subscr
 }
 );
 }
-showFavCollections(){
+showFavCollections() {
   console.log('called showfavouriteCollections');
   const httpOptions = {
     headers: new HttpHeaders({
