@@ -28,7 +28,7 @@ PostDataToDB(res1:any){
     'user-key': '9afe5ae2561b8091f5118177b4848b35'
   })
 };
-this.http.post('http://localhost:3000/favourites', res1).subscribe(data => {
+this.http.post('https://fast-ridge-55142.herokuapp.com/favourites', res1).subscribe(data => {
   console.log('POST is successful');
 }
 );
@@ -41,6 +41,6 @@ showFavCollections(){
       'user-key': '9afe5ae2561b8091f5118177b4848b35'
     })
   };
-  return this.http.get('http://localhost:3000/favourites');
+  return this.http.get('https://fast-ridge-55142.herokuapp.com/favourites');
 }
 }
