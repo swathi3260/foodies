@@ -6,10 +6,11 @@ import { AppComponent } from './app.component';
 import { HeadComponent } from './head/head.component';
 import { SelectingComponent } from './selecting/selecting.component';
 
-import { GetrestaurantsService } from './getrestaurants.service';
+
 import { HttpClientModule } from '@angular/common/http';
 import { DisplaycollectionsComponent } from './displaycollections/displaycollections.component';
 import { HomeComponent } from './home/home.component';
+import { AddtofavouritesService } from './addtofavourites.service';
 
 
 
@@ -29,7 +30,7 @@ import { HomeComponent } from './home/home.component';
     FormsModule,
     HttpClientModule
   ],
-  providers: [GetrestaurantsService],
+  providers: [AddtofavouritesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
